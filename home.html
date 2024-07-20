@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Reservation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1612090295965-e506249ccecc?q=80&w=1824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .features, .testimonials, .cta {
+            padding: 60px 0;
+        }
+        .cta {
+            background: #f8f9fa;
+            text-align: center;
+        }
+        .cta h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gym Reservation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">join us </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Welcome to Our Gym</h1>
+            <p>Reserve your spot and stay fit!</p>
+            <a href="#cta" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid mb-3" alt="Feature 1">
+                    <h3>Easy Booking</h3>
+                    <p>Book your gym sessions with just a few clicks.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://img.freepik.com/free-vector/appointment-booking-with-calendar-man_23-2148557562.jpg?w=740&t=st=1720468677~exp=1720469277~hmac=e99dde24126d58fa04ab495983cd7d4f0feb9154b8639849c4aa0fe195bff7d0" class="img-fluid mb-3" alt="Feature 2">
+                    <h3>Flexible Scheduling</h3>
+                    <p>Choose a time that works best for you.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://img.freepik.com/free-photo/athlete-exercising_1098-13938.jpg?t=st=1720468778~exp=1720472378~hmac=ccd73717a852e4cd2bc8630cb143d6ac80b1a05c9ebf81ba6d0bc10ddc496099&w=996" class="img-fluid mb-3" alt="Feature 3">
+                    <h3>Top Trainers</h3>
+                    <p>Get guidance from the best in the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials text-center bg-light">
+        <div class="container">
+            <h2>What Our Members Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Great platform to book my gym sessions. Highly recommend!</p>
+                        <footer class="blockquote-footer">Jane Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Love the flexibility and ease of use. Fantastic service.</p>
+                        <footer class="blockquote-footer">John Smith</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Amazing trainers and facilities. Booking has never been easier.</p>
+                        <footer class="blockquote-footer">Emily Johnson</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Ready to get started?</h2>
+            <p>Join us today and start your fitness journey!</p>
+            <a href="#" class="btn btn-primary btn-lg">Join Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-4">
+        <p>&copy; 2024 Gym Reservation. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
